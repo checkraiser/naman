@@ -1,0 +1,54 @@
+/*------------BEGINLOGIN*--------------------*/
+/*---------------------- begin#login*---------------------------*/
+div#primarylogin {
+
+ background:#f5f5f5 url('../images/bg_login.jpg') no-repeat;
+ background-position: center center;
+height:380px;
+
+		}
+
+div#noidunglogin {
+   width:650px;
+   margin-top:15px;
+   margin-left:200px;
+}
+div#primarylogin h2 {
+    background:url('../images/common/img_bgloginheader.gif') repeat-x;
+    height:31px;
+    line-height:31px;
+      color: #037c2b;;
+	text-indent:23px;
+	font-weight:600;
+	font-size:13px;
+        font-family:Arial, Helvetica, sans-serif;
+        border-bottom: 1px white solid;
+
+}
+
+#questionlogin {
+	padding-left:200px;
+}
+#questionlogin p {
+	padding:3px 0px 3px 0px;
+}
+p.prow {
+	margin-left:110px;
+}
+#quenmatkhau {
+	color:#00902f;
+	font-weight:600;
+	margin-left:30px;
+}
+#dangkythanhvien {
+		color:#00902f;
+		font-weight:600;
+
+}
+#tbllogin {
+	margin:5px 0px 5px 0px;
+}
+.spanlogin {
+	margin-left:5px;
+}
+/*-------------- end login------------------------*/

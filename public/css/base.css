@@ -1,0 +1,545 @@
+﻿@charset "UTF-8";
+
+/* ****************************************************
+
+==     ==                                           ==      ==
+==   ==     Title: style.css                        ==      ==
+== ==                                               ==      ==
+===         Created date: 22 Feb 2010               ==========
+== ==      										    ==      ==
+==   ==         By: Quang Hung                       ==      ==
+==     ==  										    ==      ==
+
+***************************************************** */
+
+/* # Reset 'Browser standard style'
+---------------------------------------------------------------------------- */
+
+body {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+h1 {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+h2 {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+h3 {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+h4 {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+h5 {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+h6 {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+p {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+ul {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+ol {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+dl {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+dt {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+dd {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+li {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+form {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+select {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+option {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+adress {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+pre {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+strong {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+em {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+caption {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+cite {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+code {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+dfn {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+var {
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+img {
+	border: 0;
+	background-color: transparent;
+	vertical-align: bottom;
+}
+
+fieldset { border: 0; }
+
+hr { display: none; }
+
+ul { list-style:none; }
+
+ol { list-style:none; }
+
+td td {
+	font-size: 100%;
+}
+
+dl dl {
+	font-size: 100%;
+}
+
+dl ol {
+	font-size: 100%;
+}
+
+dl ul {
+	font-size: 100%;
+}
+
+ol ol {
+	font-size: 100%;
+}
+
+ul ol {
+	font-size: 100%;
+}
+
+ol ul {
+	font-size: 100%;
+}
+
+ul ul {
+	font-size: 100%;
+}
+
+q:after { content:''; }
+
+q:before { content:''; }
+
+acronym { border:0; }
+
+
+abbr { border:0; }
+
+
+/* # Redefine
+---------------------------------------------------------------------------- */
+
+body {
+
+    font-family:Tahoma, sans-serif;
+	line-height: 1.4;
+	padding: 0;
+	margin: 0;
+	color: black;
+  
+}
+
+div#page_{
+ /*display:table;*/
+  width:998px;
+  margin: 0 auto;
+  font-family:Arial, Tahoma, sans-serif;
+  font-size:12px;
+}
+.ie7 div#page_
+{
+/*margin: 0 auto;*/
+
+}
+
+/* legacy IE */
+* html body {
+	font-size:75%;
+}
+
+/* IE7 */
+*:first-child + html body {
+	font-size:75%;
+}
+
+strong { font-weight: bold; }
+em     { color: #F00; font-style: normal; }
+
+li { margin-left: 0; }
+
+
+/* # modules ---------------------------------------------------------------------------- */
+
+/* #01 naviHidden
+---------------------------------------------------------------------------- */
+
+.naviHidden {
+	border-style: none;
+	display: run-in;
+	height: 1px;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 1px;
+	z-index: 100;
+}
+
+
+/* #02 float clear
+---------------------------------------------------------------------------- */
+
+.clearLeft  { clear:left; }
+.clearRight { clear:right; }
+.clearBoth  { clear:both; margin-bottom: 1.3em; }
+
+
+/* #03 float
+---------------------------------------------------------------------------- */
+
+.floatLeft  { float:left; }
+.floatRight { float:right; }
+
+
+/* #04 align
+---------------------------------------------------------------------------- */
+
+.alignLeft   { text-align: left !important; }
+.alignCenter { text-align: center !important; }
+.alignRight  { text-align: right !important; }
+
+/* #05 valign
+---------------------------------------------------------------------------- */
+.padding-text {
+	padding-top:10px;
+}
+/* #06 valign
+---------------------------------------------------------------------------- */
+
+.valignBaseline { vertical-align: baseline; }
+
+
+/* #07 rollover
+---------------------------------------------------------------------------- */
+
+.imgover {}
+
+
+/* #08 form control
+---------------------------------------------------------------------------- *
+
+
+/* #09 font color
+---------------------------------------------------------------------------- */
+
+.required {
+	color: #FF0000 !important;
+}
+
+
+.attention {
+	color: #FF0000 !important;
+}
+
+
+/* #10 font size
+---------------------------------------------------------------------------- */
+
+.smallText { font-size: 0.85em; }
+
+
+/* #11 last list
+---------------------------------------------------------------------------- */
+
+.lastList {
+	background: none !important;
+	border: none !important;
+	margin-right: 0 !important;
+}
+
+
+/* #12 clearfix
+---------------------------------------------------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix
+{display: block;}
+/* End hide from IE-mac */
+
+
+/* # General Elements
+---------------------------------------------------------------------------- */
+a {
+	color: black;
+	text-decoration: none;
+	}
+a:hover { color:#990033; text-decoration: none; }
+
+h1 {  }
+h2 {  }
+h3 {  }
+h4 {  }
+
+
+/* # body
+---------------------------------------------------------------------------- */
+
+body {
+/*	color: #000000; */
+	font-size: 12px;
+}
+
+*:first-child + html body {
+	font-size: 12px;
+}
+
+* html body {
+	font-size: 12px;
+}
+
+p.forPrint {
+	display: none;
+}

@@ -1,0 +1,13 @@
+sts_bs("jwscroller2dbd",[20080623,"images/","","blank.gif",0,1,1,5,"730px","left",1,3,100,120,0,0,0,0,0,2000,1,24,1,"stEffect(\"scroll(Rate=24,enabled=0,Duration=0.50)\")",-2,60],["none",1,"#454545","#FFFFFF","","repeat"]);
+sts_tbd([1],["solid",1,"#454545",5,"round_tl.gif","round_tr.gif","round_br.gif","round_bl.gif","transparent","round_t.gif","repeat","transparent","round_r.gif","repeat","transparent","round_b.gif","repeat","transparent","round_l.gif","repeat"]);
+sts_ai("i0",[0,"Item 1","","_self","default.gif",80,100,"center"],["transparent","9pt Verdana,Arial","#000000","none","9pt Verdana,Arial","#000000","none"]);
+sts_ai("i1",[,"Item 2"],[],"i0","i0");
+sts_ai("i2",[],[],"i0","i0");
+sts_ai("i3",[],[],"i1","i0");
+sts_ai("i4",[],[],"i0","i0");
+sts_ai("i5",[],[],"i1","i0");
+sts_ai("i6",[],[],"i0","i0");
+sts_ai("i7",[],[],"i1","i0");
+sts_ai("i8",[],[],"i0","i0");
+sts_ai("i9",[],[],"i1","i0");
+sts_es();

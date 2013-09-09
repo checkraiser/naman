@@ -1,0 +1,196 @@
+﻿/*------------------- CHITIETSANPHAM-------------------------*/
+
+#primarymain h2.h2doanhnghiep {
+    height:30px;
+	line-height:30px;
+	color:#025a8c;
+
+	border-bottom:1px #d8deea solid;
+	background:#eef2f5;
+	font-weight:600;
+	font-size:13px;
+    text-transform: uppercase;
+
+	}
+h1#newtieude
+{
+	color:#0b2644;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:15px;
+}
+
+#divnewimg {
+	width:210px;height:175px;float:left;
+	    margin-left:15px;
+	     margin-right:10px;
+
+}
+#newbgdetail {
+	background:url('../images/img_bgtincongdong.jpg') no-repeat;
+	width:209px;height:160px;
+    position:relative;
+}
+#newimgdetail_pic {
+height:360px;
+width:275px;
+}
+
+h1#tieudesanpham {
+	 text-indent: 0px;
+	 font-size:18px;
+	 color:black;
+	 margin:0px 0px 0px 0px;
+	 font-weight:600;
+}
+
+div#divthongtinsanpham {
+	
+	min-height:50px;
+	background:url('../images/common/img_bglinet.gif') no-repeat;
+
+}
+
+p.pthogntin{
+	margin:3px 0px 3px 0px;
+}
+
+ul.ulthongtinsanpham {
+	width:250px;
+	float:left;
+}
+ul.ulthongtinsanpham li {
+	display:block;
+	padding:3px 5px 3px 0px;
+}
+span.tdspan {
+	width:150px;
+    float:right;
+    color:#FF0000;
+    font-weight:bold;
+}
+ul.thongtinmuahang {
+	width:250px;
+	float:right;
+
+}
+ul.thongtinmuahang li {
+	display:block;
+	padding:3px 5px 4px 0px;
+}
+
+span.soluong {
+  background:url('../images/common/img_number.gif') no-repeat;
+  padding:5px 5px 5px 7px ;
+  }
+div.divmotasp
+{
+
+}
+
+div.divmotasp p {
+	padding:15px 15px 0px 15px;
+}
+h2.h2motasp {
+	 height:25px;
+     line-height:25px;
+     border-bottom:3px #fdb218 solid;  
+     font-weight:bolder;
+     font-size:16px;
+    font-family:"Times New Roman", Times, serif;
+    background:url('../images/index/img_iconsptieubieu.jpg') no-repeat;
+    padding-left:12px;
+    background-position:left center;
+}
+ul.ulmotasanpham {
+	padding:0px 5px 0px 0px;
+	display:block;
+	font-size:12px;
+	margin-left:10px;
+
+}
+ul.ulmotasanpham li {
+background:url('../images/common/img_iconcungtheloai.png') no-repeat;
+background-position:left 6px;
+padding:3px 0px 0px 15px ;
+}
+div.divthongtinnguoiban {
+	width:350px;
+	float:right;
+	background:#f1f6e4;
+    margin-right:15px;
+}
+
+ul.ulthongtinnguoiban {
+	padding:0px 5px 0px 0px;
+	display:block;
+	font-size:12px;
+	margin-left:10px;
+
+}
+ul.ulthongtinnguoiban li {
+background:url('../images/common/img_iconcungtheloai.png') no-repeat;
+background-position:left 6px;
+padding:3px 0px 0px 15px ;
+}
+
+img.logonguoiban {
+	display:block;
+	float:left;
+	width:105px;
+	margin-left:5px;
+	margin-bottom:10px;
+}
+div.divthogntinsanpham{
+	margin-top:5px;
+        width: 998px;
+        clear: both;
+   }
+div.divthogntinsanpham p {
+	padding:15px;
+}
+div.divanhsanpham {
+    background:#f1f6e4;
+	margin-top:5px;
+    margin-left:15px;
+    width:100%;
+}
+div.imgssanpam{
+  
+    margin-right:0px;
+    margin-left:8px;   
+    width:710px;
+    vertical-align:middle;
+    }
+ul.ulanhsanpham {
+	display:block;width:auto;
+       
+}
+ul.ulanhsanpham li {
+    
+	list-style:none;
+        padding-left: 25px;
+
+}
+
+a.atrove {
+	background:url('../images/news/img_buletttrove.jpg') no-repeat;
+	background-position:left 3px;
+	padding:5px 0px 5px 20px;
+	 font-family:Tahoma;
+	 margin:5px;
+        margin-left: 470px;
+}
+
+a.bgchitietsp {
+
+     width: 92px;
+     height:93px;
+     padding:10px;
+ }
+ul.ulanhsanpham li img.picchitiet
+{
+    max-width:500px;
+    margin-top:20px;
+
+}

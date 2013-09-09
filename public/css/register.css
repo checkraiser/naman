@@ -1,0 +1,179 @@
+/* # primary dang ky
+---------------------------------------------------------------------------- */
+div#primary_dangky {
+	float: left;
+	width:998px;
+	 background:#f8fafc;
+}
+.tt {
+	font-weight:bold; font-size:1.2em;
+	color:black;
+    margin-left:20px;
+  }
+
+div#primary_dangky p {
+	color:black;
+
+}
+div#primary_dangky p#dangky {
+	font-size:18px;
+	color:#037c2b;
+	background:#F6B812 url('../images/img_bgdangnhap.gif');
+	padding:0px 0px 0px 20px;
+	font-weight:600;
+	height:54px;
+	line-height:54px;
+	text-indent:45px;
+}
+
+div#primary_dangky p#note {
+	float:right;
+	color:red;
+	margin-right:10px;margin-top:-18px;
+}
+
+div#primary_dangky div#thongtintaikhoan {
+    background-color:#eff7ff;
+    width:750px;
+    margin:0px auto;
+    margin-top:30px;
+    margin-bottom:15px;
+    }
+div#primary_dangky div#thongtintaikhoan p{
+	margin-left:10px;
+}
+div#primary_dangky div#thongtintaikhoan p span.thongtintaikhoan1{
+    margin-left:10px;
+
+}
+div#primary_dangky div#thongtinlienhe p span.thongtintaikhoan1{
+    margin-left:10px;
+}
+
+div#primary_dangky div#thongtintaikhoan p {
+   margin-top:10px;
+}
+
+div#primary_dangky div#thongtintaikhoan table#chitiet {
+	width:750px;
+	border-collapse:collapse;
+	float:none;
+	margin-top:10px;
+	background-color:#FFFFFF;
+
+
+}
+
+div#primary_dangky div#thongtintaikhoan table#chitiet input {
+	width:294px;
+}
+
+div#primary_dangky div#thongtintaikhoan table#chitiet label a {
+	color:#51AC2B;
+
+}
+
+
+th {
+	border:3px #E4E3E3 solid;
+	padding:5px;
+}
+
+div#primary_dangky div#thongtintaikhoan table#chitiet td {
+	border:1px #E4E3E3 solid;
+	}
+
+div#primary_dangky div#thongtintaikhoan table#chitiet td.tieude {
+	width:168px;
+	}
+div#primary_dangky div#thongtintaikhoan table#chitiet td.noidung input {
+	margin:3px;
+}
+div#primary_dangky div#thongtintaikhoan table#chitiet td.tieude p {
+	    color:#096ba7;
+		font-weight:bold;
+}
+div#primary_dangky div#thongtintaikhoan table#chitiet td.tieude p span {
+	color:red;
+}
+div#primary_dangky div#thongtinlienhe {
+	 width:750px;
+	 margin:0 auto;
+	background-color:#eff7ff;
+	margin-bottom:15px;
+   }
+div#primary_dangky div#thongtinlienhe p{
+	margin-left:10px;
+}
+div#primary_dangky div#thongtinlienhe table#thongtin {
+	border-collapse:collapse;
+	float:none;
+    margin-top:10px;
+    background-color:#ffffff;
+    width:750PX;
+}
+
+div#primary_dangky div#thongtinlienhe table#thongtin select {
+	width:256px;
+}
+
+div#primary_dangky div#thongtinlienhe table#thongtin select.gioitinh {
+	width:100px;
+}
+
+div#primary_dangky div#thongtinlienhe table#thongtin textarea {
+	width:435px;
+}
+
+
+div#primary_dangky div#thongtinlienhe table#thongtin td {
+	border:1px #E4E3E3 solid;
+}
+
+
+div#primary_dangky div#thongtinlienhe table#thongtin td.noidung input {
+	margin:3px;
+}
+
+div#primary_dangky div#thongtinlienhe table#thongtin td.noidung select {
+	margin:3px;
+}
+
+div#primary_dangky div#thongtinlienhe table#thongtin td.noidung textarea {
+	margin:3px;
+}
+
+div#primary_dangky div#thongtinlienhe table#thongtin td.tieude p {
+	     color:#096ba7;
+		font-weight:bold;
+
+}
+div#primary_dangky div#thongtinlienhe table#thongtin td.tieude p span {
+	color:red;
+}
+
+/*-------------------------------------#dl--------------------------------*/
+
+div#primary_dangky dl {
+	margin:10px;
+        margin-left: 15px;
+}
+
+div#primary_dangky dl dt {
+	font-weight:bold;
+
+}
+
+div#primary_dangky dl dd span {
+	color:red;
+}
+/*--------------------------------button----------------------------------*/
+
+div#primary_dangky h1 {
+padding-left:240px;
+padding-bottom:15px;
+padding-top:15px;
+}
+.stardangky {
+	color:red;
+}

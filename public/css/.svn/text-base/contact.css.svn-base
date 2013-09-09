@@ -1,0 +1,197 @@
+﻿.h2 {
+    background:url('../images/img_textheaderhome.gif') repeat-x;;
+    height:29px;
+    line-height:29px;
+    text-indent:20px;
+    font-weight: bold;
+    color: #036ca5;
+    clear: both;
+    text-transform: uppercase;
+}
+
+div#infocontact {
+	border: #bababa solid 1px;
+	background-color:#f3f0f0;
+}
+div#infocontact div#chaohoi {
+	padding-top: 10px;
+	width:470px;
+	float: left;
+	}
+
+div#infocontact div#dangnhap {
+	width:475px;
+	float:right ;
+	padding-top: 0px;
+	border-left: #bababa solid 1.5px;
+
+}
+p#topline_new {
+    color: #CB2127;
+    font-weight: bold;
+    margin-left: 15px;
+}
+div#noidunglienhe {
+	background-color:white;
+	border: #bababa solid 1.5px;
+        color:black;
+        margin-top: 10px;
+ }
+
+
+div#dieule div {
+padding: 2px 20px 2px 20px;
+}
+div#dieule p {
+padding: 2px 20px 2px 20px;
+
+}
+
+div#thongtindoitac {
+    color:black;
+	background-color:white;
+	clear: both ;
+    border: #dbd4d4 solid 1.5px;
+ }
+.mota1 {
+	clear: both ;
+	margin-left: 40px;
+	padding: 5px 0 3px 0;
+        color:black;
+}
+.dausao {
+	color: #cb2127;
+	font-weight: normal ;
+}
+ul#mathang {
+	float:left ;
+	padding:5px 5px 5px 35px;
+	width: 955px;
+      
+}
+
+ul#mathang li {
+    display:inline;
+   font-weight: bold;
+
+}
+li#mathang {
+	padding-left:10px;
+	margin-left:20px;
+
+}
+div#thongtindoitac h1 {
+	background: url(../images/h1lienhe.gif) no-repeat;
+	height: 29px;
+	font-weight: bold;
+	color: #0e4970;
+	padding: 4px 0 0 25px;
+	clear: both;
+}
+div#dangnhap h1 {
+	background: url(../images/h1lienhe.gif) no-repeat;
+	height: 29px;
+	font-weight: bold;
+	color: #0e4970;
+	padding: 4px 0 0 25px;
+	clear: both;
+}
+div#tendangnhap {
+	width: 470px
+}
+
+
+
+ul#tt li{
+	margin: 0 0 0 15px;
+	padding: 3px 0 0 0;
+}
+ul#tt li p.ml{
+
+	padding:3px 20px 0 15px;
+	width: 150px;
+    display:block;
+	float: left ;
+	clear: both ;
+	text-align: right ;
+    color:black;
+
+}
+
+ul#dn li{
+padding:3px 0px 3px 0px;
+}
+ul#dn li input.textb{
+width:250px;
+}
+
+.tendangnhap {
+	padding-left:15px;
+	font-weight:600;
+	width:100px;
+	display:block;
+	float:left;
+}
+ul#dn li input.textc{
+   width: 20px;
+  clear: both ;
+  float:left;
+margin-left:110px;
+
+}
+ul#gioitinh li input{
+
+	clear: both ;
+
+}
+ul#gioitinh li p.p1{
+
+}
+
+
+ul#dn li p.mr{
+ float:left;
+
+}
+ul#dn li input.submit{
+
+	margin: 20px 0 0 200px;
+	float: left ;
+	width: 100px;
+	clear: both ;
+
+}
+ul#tt li input.input{
+
+		}
+ul#tt li div{
+
+	width: 300px;
+	float: left ;
+	height: 40px;
+
+		}
+ul#dn li a p#a1{
+
+	padding: 20px 0 0 150px;
+	float: left ;
+	width: 100px;
+
+}
+ul#dn li a p#a2{
+
+	margin: 20px 0 0 0px;
+	float: left ;
+	width: 200px;
+
+}
+p#loi {
+	 color: red;
+	 margin-left: 150px;
+	 clear: both ;
+}
+p#guitoi {
+	margin-left: 30px;
+	float: left ;
+}
+/*------------------*/

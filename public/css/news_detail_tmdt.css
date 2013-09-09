@@ -1,0 +1,119 @@
+﻿/*--------------------begin chitiet tin------------------------------------------*/
+
+div#divsitemap {
+	background:url('../images/news/img_bgsitemapnews.jpg') no-repeat;
+	height:41px;
+}
+div#divsitemap h2 {
+    height:28px;
+	line-height:28px;
+	color:white;
+	font-weight:600;
+	line-height:28px;
+	text-indent:12px;
+	text-transform:uppercase;
+
+}
+div#contentnews {
+
+}
+div#contentnews h3 {
+	font-weight:600;
+	margin-left: 10px;
+	color:#004d85;
+	font-size:13px;
+        display: block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top:5px;
+        
+}
+div#contentnews p.styleImg {
+	background: url(../images/news/bg_image02.gif) no-repeat 0 0;
+	float: left;
+	height: 150px;
+	margin: 0px 6px 0px 10px;
+	padding: 6px 0px 0px 0px;
+	text-align: center;
+	width: 195px;
+}
+div#contentnews div#ptomtattin {
+	text-align:justify;
+	padding:0xp 10px 0px 0px ;
+   margin-right:15px;
+   margin-left:20px;
+   margin-bottom:10px;
+	font-style:italic;
+	font-weight:600;
+	color:#434242;
+	
+}
+div#contentnews div#pnoidungtin {
+	color:#434242;
+   margin-right:15px;
+   margin-left:10px;
+   	text-align:justify;
+  
+}
+ul.newnguontin {
+	margin-left:450px;
+	margin-top:10px;
+	
+}
+ul.newnguontin li {
+	font-style:italic;
+	color:navy;
+}
+div#divcactinkhac {
+	margin:15px 15px 0px 20px; 
+}
+div#divcactinkhac h2 {
+	height:25px;
+	font-weight:600;
+	font-size:12px;
+	text-indent:5px;
+    font-family:Arial, Helvetica, sans-serif;
+	line-height:25px;
+	text-transform:uppercase;
+}
+div#divcactinkhac  ul {
+	display:block;
+	margin:5px 15px 0px 15px;
+}
+div#divcactinkhac  ul li {
+	 background:url('../images/news/img_bullettinbai.jpg') no-repeat;
+         background-position:left 8px;
+         padding: 3px 0px 3px 14px;
+	}
+div#divcactinkhac  ul li a {
+     color:#013757;
+     display: block;
+     font-family:Tahoma;
+ }
+ div#divcactinkhac  ul li a:hover {
+	color:#8d0404;
+}
+div#contentbottonnews {
+	background:url('../images/news/img_bgbottomchitiettin.jpg') no-repeat;
+	height:16px;
+	
+}	
+span.datenews{
+	color:#414141;
+	font-size:11px;
+}
+a.atrove {
+	background:url('../images/news/img_buletttrove.jpg') no-repeat;
+	background-position:left 3px;
+	padding:5px 0px 5px 20px;
+	 font-family:Tahoma;
+	 margin:5px;
+        margin-left: 470px;
+}
+a.atrovedautin{
+	background:url('../images/news/img_lendautrang.jpg') no-repeat;
+	background-position:left -2px;
+	padding:5px 0px 5px 20px;
+	 font-family:Tahoma;
+	
+}	

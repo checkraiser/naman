@@ -1,0 +1,109 @@
+﻿
+#menu_tin {
+width: 100%;
+clear: both;
+}
+
+ul#topnav {
+float: left;
+width: 998px;
+position: relative;
+font-size: 1em;
+height: 39px;
+background: #e99765 url(../images/index/top-nav.jpg) repeat-x;
+behavior: url(whateverhover.htc);
+
+}
+
+ul#topnav li  {
+float: left;
+height: 39px;
+padding: 0px;
+border-right: 1px solid #2f6184;
+}
+
+ul#topnav li a {
+padding: 10px 15px;
+display: block;
+color: #f0f0f0;
+text-decoration: none;
+}
+
+ul#topnav li:hover {
+background: #b21a1a url(../images/images/bottom-nav.jpg) repeat-x;
+}
+
+ul#topnav li ul.children {
+float: left;
+height: 39px;
+line-height: 39px;
+padding: 0px;
+position: absolute;
+left: 0px; top: 39px;
+display: none;
+width: 998px;
+background: #cc2928;
+color: white;
+-moz-border-radius: 0px 0px 5px 5px;
+-khtml-border-radius: 0px 0px 5px 5px;
+-webkit-border-radius: 0px 0px 5px 5px;
+ text-align:center;
+}
+
+ul#topnav li.active_menu ul{display:block}
+ul#topnav li.active_menu{background:#cc2928;font-weight:bold}
+ul#topnav li.active_menu{color:#333}
+ul#topnav li ul.children li {
+border: none;
+}
+
+ul#topnav li:hover ul {
+display: block;
+z-index:10000;
+}
+ul#topnav li ul.children li {
+display: inline;
+        text-align: center;   
+  }
+ul#topnav li ul a {
+display: inline;
+text-align:center;
+}
+
+ul#topnav li ul a:hover {
+text-decoration: underline;
+}
+
+ul#topnav li ul li:hover {
+background: none;
+}
+ul#topnav li ul a.active_menu_a {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,176 @@
+    * { margin: 0; padding: 0; }
+a:active { outline: none; }
+a:focus { -moz-outline-style: none;
+ outline: none;}
+
+
+        #navigation {
+            background-color:#015e86;
+                list-style:none;
+                margin-top:-3px;
+                _margin-top:-3px;
+        }
+
+        
+         #navigation li {
+                 display:block
+                   }
+        #navigation a.head {
+        cursor:pointer;
+        border-bottom:1px solid #B5C8C8;
+        background:#015e86 url('../images/img_bgmenuleft1.gif') no-repeat;
+        border-left: 1px solid #bfbfbf;
+        background-position:10px 8px;
+        color:#FFFFFF;
+        display:block;
+        padding-left:30px;
+        text-decoration: none;
+        line-height:27px;
+        }
+        .nolevel
+        {
+         cursor:pointer;
+        border-bottom:1px solid #B5C8C8;
+        background:#015e86 url('../images/img_bgmenuleft1.gif') no-repeat;
+        border-left: 1px #bfbfbf solid;
+        background-position:10px 8px;
+        color:#FFFFFF;
+        display:block;
+        padding-left:30px;
+        text-decoration: none;
+
+        line-height:27px;
+
+        }
+        #navigation a.nolevel:hover {
+        color:blue;
+        }
+        #navigation a.head:hover {
+        color:blue;
+        }
+
+        a.headtext {
+	     border-bottom:1px solid #B5C8C8;
+        background:#015e86 url('../images/img_bgmenuleft.gif') no-repeat;
+        color:#FFFFFF;
+        display:block;
+        padding-left:30px;
+        text-decoration: none;
+
+        height:40px;
+        line-height:27px;
+
+           }
+
+        #navigation a.selected {
+  /*      background:url('../images/img_bgmenuleft.gif') #ffffff no-repeat; */
+          color:#cdff00;
+
+        }
+
+        #navigation a.current {
+
+       color:#ffd200;
+
+        }
+        ul#cssonclickswitch {
+        border-width:0px;
+        margin:0px;
+        padding:0px;
+        text-indent:0px;
+        width:214px;
+        }
+
+        #navigation ul li {
+        list-style:none outside none; display:inline;
+          }
+
+        #navigation li li a
+        {
+
+         color:#cdff00;
+        display: block;
+        text-decoration: none;
+        padding: 5px 0px 5px 42px;
+        _padding: 2px 0px 2px 42px;
+      background:url('../images/img_ovuongleft.gif') no-repeat  ;
+      background-position:25px center;
+
+        }
+
+            #navigation li li a:hover {
+        /*	background:url('../images/nen.png') silver; */
+         color:aqua;
+         }
+/*--------------------------------------*/
+#navigationmenu {
+
+                list-style:none;
+                margin-top:-15px;
+                _margin-top:-15px;
+                border-right: 1px #6c9fce solid;
+                margin-bottom:10px;
+                 width: 220px;
+        }
+        #navigationmenu a.head {
+        cursor:pointer;
+        background:url('../images/bg_menuleft.gif') no-repeat;
+        color:white;
+        display:block;
+        padding-left:30px;
+        text-decoration: none;
+        height:31px;
+        line-height:30px;
+        
+        }
+        #navigationmenu a.endheader {
+	      height:32px;
+
+        }
+        #navigationmenu a.head:hover {
+            color:#ffff00;
+        }
+
+        #navigationmenu a.selected {
+  /*      background:url('../images/img_bgmenuleft.gif') #ffffff no-repeat; */
+          color:#ffff00;
+
+        }
+
+        #navigationmenu a.current {
+       background:#9abefb url('../images/img_buletmenu.png') no-repeat  ;
+       padding: 5px 0px 5px 42px;
+        _padding: 2px 0px 2px 42px;
+        background-position:25px center;
+
+        }
+        ul#cssonclickswitch {
+        border-width:0px;
+        margin:0px;
+        padding:0px;
+        text-indent:0px;
+        width:228px;
+        }
+
+        #navigationmenu ul li {
+        list-style:none outside none; display:inline;
+          }
+
+        #navigationmenu li li a
+        {
+
+         color:#024583;
+        display: block;
+        text-decoration: none;
+        padding: 5px 0px 5px 42px;
+        _padding: 2px 0px 2px 42px;
+      background:#bcd1f4 url('../images/img_buletmenu.png') no-repeat  ;
+      background-position:25px center;
+      border-bottom:1px #FFFFFF solid;
+     width: 179px;
+        }
+
+            #navigationmenu li li a:hover {
+        /*	background:url('../images/nen.png') silver; */
+         color:blue;
+         }

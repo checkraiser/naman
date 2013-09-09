@@ -1,0 +1,26 @@
+﻿#divykienphanhoi {
+	margin-left:14px;
+	margin-right:10px;
+    background:#e5f0f7;
+}
+#divykienphanhoi table tr {
+height:30px;
+}
+
+span.spancontact {
+	width:90px;
+   display:block;
+   float:left;
+   font-weight:600;
+   color:navy;
+}
+#divykienphanhoi input {
+	float:left;
+	width:400px;
+}
+span.re {
+	color:red;
+}
+input#bnt {
+	width:100px;
+}

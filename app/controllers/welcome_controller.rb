@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-  	authenticate_user!
+  	@categories = Category.all.select {|c| c.parent.nil?}
   end
 end

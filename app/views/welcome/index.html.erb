@@ -1,2 +1,410 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Trade Bac lieu</title>
+
+<link rel="stylesheet" type="text/css" href="/css/naman.css" />
+</head>
+
+<body>
+<div id="page_">
+<div id="layout">
+<div id="header" class="clearfix">
+<div id="logo" class="clearfix">
+
+<a href="#">
+<img src="/images/index/img_logo.jpg"/>
+</a>
+
+</div>
+<div id="divheader_right" class="clearfix">
+<div id="top" class="clearfix">
+<ul class="topMenu clearfix" >
+<li class="datlamtrangchu"><a href="#">Trang chủ</a>&nbsp;</li>
+<% if user_signed_in? %>
+  <li><a href="/users/sign_out">Đăng xuất</a>&nbsp;</li>
+<% else %>
+  <li><a href="/users/sign_in">Đăng nhập</a>&nbsp;</li>
+<% end %>
+<li><a href="#">Giỏ hàng (3)</a>&nbsp;</li>
+<li><a href="#">Đăng ký</a>&nbsp;</li>
+<li><a href="#">Liên hệ </a>&nbsp;</li>
+<li><a href="#">Trợ giúp</a>&nbsp;</li>
+<% if current_user and current_user.is_admin? %>
+  <li><a href="/admin">Quản trị</a>&nbsp;</li>
+<% end %>
+</ul>
+ <div id="google_translate_element" ></div>
+<!--id/ top --></div>
+
+<!-- end header_right--></div>
+<!-- divhearder--></div>
+ <div id="tabsninhthuan" class="clearfix">
+  <ul class="clearfix">
+    <li class="item giaohang"><a href=""><span>GIAO HÀNG <BR/> TOÀN QUỐC</span></a>
+           <div class="tooltip_description" style="display:none" title="Item 3 Description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+     </li>
+    <li class="item trahang" ><a href=""><span>TRẢ HÀNG  <BR/> TRONG 14 NGÀY </span></a>
+          <div class="tooltip_description" style="display:none" title="Item 3 Description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+     </li>
+    <li class="item thanhtoan"><a href=""><span>THANH TOÁN  <BR/> KHI NHẬN HÀNG </span></a>
+      <div class="tooltip_description" style="display:none" title="Item 3 Description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+    </li>
+     <li  class="item camket">      <a href=""><span> CAM KẾT <BR/> CHÍNH HÃNG  </span>
+         <div class="tooltip_description" style="display:none" title="Item 3 Description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+     </a> 
+</li>
+
+ </ul>
+     
+ <div id="searchBar">
+    <form id="search">
+ <table id="tablesearch">
+ <tr>
+     <td style="width: 218px"><input name="Text1" value="Tìm kiếm" type="text" style="width:450px;" /></td>
+     <td><select name="Select1" style="width: 145px;height:22px;">
+				<option>Ngành hàng</option>
+			</select>
+     </td>
+     <td>   <select name="Select1" style="width:140px;height:22px;" class="style1">
+				<option>Sản phẩm</option>
+			</select>
+     </td>
+       <td>   <select name="Select1" style=" width:140px;height:22px;" class="style1">
+				<option>Quốc Gia</option>
+			</select>
+     </td>
+     <td>
+        <input type="button" value="Tìm kiếm" style="background:#ffc207" />
+     </td>
+
+ </tr>
+<!-- table search--> </table>
+
+<!-- end formsearch--></form>
+ </div>
+<!-- eand tapthainguyen--></div>
+
+
+
+ <div id="pageBody" class="clearfix" >
+     <div id="primaryhome" class="clearfix">
+          <div id="primarymain" class="columnhome clearfix">
+          <div id="divhotro">
+           <table>
+            <tr>
+    <td style="vertical-align:top">
+                 <script type="text/javascript">
+    var clicked=false;
+    $(document).ready(function () {
+	
+	$("#menu li a.aactive_hover").hover(function(){
+	$(".content").stop().animate({width:'790px'});
+	},function(){
+	$(".content").stop().animate({width:'0px'});
+	});
+	$("#wrapper a div#showAll").click(function(){
+	if(clicked==false)
+	{
+	$(this).parent().parent().css({'height':'auto','overflow':'auto'});
+	clicked=true;
+	}
+	else
+	{
+	$(this).parent().parent().css({'height':'30px','overflow':'hidden'});
+	clicked=false;
+	}
+	});
+	});
+	
+	</script>
+  
+<div id="wrapper">
+<h3 id="showAll">Show All </h3>
+<ul id="menu">
+  <% @categories.each do |cat| %>
+  <li> <a class="aactive_hover" href="#"><%= cat.name + cat.id.to_s %>
+	  <span class="destroy-border"></span>
+      <span class="content">
+        <table style="width:100%">
+            <% if cat and cat.categories.count > 0 %>              
+              <% cat.categories.each do |cat2| %>
+                <tr>
+                  <td style="width:35%;vertical-align:top;padding-left:10px;">
+                   <p class="plevel3"><b><%= cat2.name %></b></p>
+                    <% if cat2 and cat2.categories.count > 0 %>
+                       <ul class="ullevel3">
+                        <% cat2.categories.each do |cat3| %>
+                           <li><a href="#"><%= cat3.name %></a></li>
+                        <% end %>                           
+                       </ul>
+                      <% end %>                     
+                   </td>
+                </tr>
+                <% end %>                  
+              <% end %>
+        <img style="float:right" src="/images/index/img_picnen.jpg"/>
+        </table>
+       </span>      
+  </a>
+  </li>
+  <% end %>
+  
+</ul>
+  <h3 id="showAll">Show All </h3>
+</div>
+
+             </td>
+             <td style="width:545px;vertical-align:top" >
+    <link rel="stylesheet" href="../css/themes/default/default.css" type="text/css" />
+    <link rel="stylesheet" href="../css/nivo-sliderhome.css" type="text/css" />
+
+                  <div id="banner">
+	       <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <a href="#"> <img src="/images/index/pic1.jpg" alt="banner"alt="" title="#htmlcaption0" /></a>
+			    <a href="#"> <img src="/images/index/pic2.jpg" alt="banner"alt="" title="#htmlcaption0"  /></a>
+                <a href="#"> <img src="/images/index/pic3.jpg" alt="banner"alt="" title="#htmlcaption0" /></a>
+              </div>
+          </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+  
+
+     <script type="text/javascript" src="../JS/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+      <!-- end divbaner--></div>
+                          </td>
+              <td style="width:210px;vertical-align:top"> 
+                   <img src="/images/index/quangcao1.jpg" alt="quangcao"/>
+                </td>
+            </tr>
+           
+           </table>
+          <!-- end divhotro--></div>     
+        <div style="clear:both"></div>
+        <div id="quangcao2">
+           <img src="/images/index/quangcao2.jpg"/>
+        </div>
+              
+
+<div style="clear:both"></div>
+ <div id="sanphammoi" class="clearfix" >
+               <a href="#" class="axemtatcasp"> >> Xem tất cả các sản phẩm </a>
+                             <h2 class="sptieubieu">ĐIỆN THOẠI VÀ MÁY TÍNH BẢNG</h2>
+ <div class="spBlockspnew">
+ <ul id="ulsanphamtieubieu">
+     <li> 
+           <a href="#"><img class="anhsanphammoi" src="/images/index/anhsanpham2.jpg" alt="anhanpham2"/> </a>
+         <div class="divinfospnew">
+    <p class="ptensanpham"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+   
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src="/images/index/apple-1261-13158-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src="/images/index/fujifilm-0358-73493-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+<li> 
+     <img class="anhsanphammoi" src="/images/index/anhsanpham2.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src="/images/index/htc-7738-76348-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+   </ul>
+
+<!--class/ spBlock1 --></div>
+ <div style="clear:both"></div>
+ <!-- end sanphammoi--></div> 
+ <div id="sanphammoi" class="clearfix" >
+               <a href="#" class="axemtatcasp"> >> Xem tất cả các sản phẩm </a>
+                             <h2 class="sptieubieu">ĐIỆN THOẠI VÀ MÁY TÍNH BẢNG</h2>
+ <div class="spBlockspnew">
+ <ul id="ulsanphamtieubieu">
+     <li> 
+           <a href="#"><img class="anhsanphammoi" src="/images/index/anhsanpham2.jpg" alt="anhanpham2"/> </a>
+         <div class="divinfospnew">
+    <p class="ptensanpham"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+   
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src/images/index/apple-1261-13158-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src="/images/index/fujifilm-0358-73493-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+<li> 
+     <img class="anhsanphammoi" src="/images/index/anhsanpham2.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src="/images/index/htc-7738-76348-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+   </ul>
+
+<!--class/ spBlock1 --></div>
+ <div style="clear:both"></div>
+ <!-- end sanphammoi--></div>
+ <div id="sanphammoi" class="clearfix" >
+               <a href="#" class="axemtatcasp"> >> Xem tất cả các sản phẩm </a>
+                             <h2 class="sptieubieu">ĐIỆN THOẠI VÀ MÁY TÍNH BẢNG</h2>
+ <div class="spBlockspnew">
+ <ul id="ulsanphamtieubieu">
+     <li> 
+           <a href="#"><img class="anhsanphammoi" src="/images/index/anhsanpham2.jpg" alt="anhanpham2"/> </a>
+         <div class="divinfospnew">
+    <p class="ptensanpham"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+   
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src="/images/index/apple-1261-13158-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src="/images/index/fujifilm-0358-73493-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+<li> 
+     <img class="anhsanphammoi" src="/images/index/anhsanpham2.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+    <li> 
+     <img class="anhsanphammoi" src="/images/index/htc-7738-76348-1-catalog.jpg" alt="anhanpham2"/>
+    <div class="divinfospnew">
+    <p class="ptensanpham psanphammoi"><a href="#" class="tesnsp" >Tranh ghép hình Ông Lão Tranh ghép </a></p>
+    <p  class="spnew"><span class="spangia">540.000 VNĐ</span></p>
+    <p class="spnew">Xuất xứ : <span>Nhật Bản</span></p>
+    </div>
+    </li>
+   </ul>
+
+<!--class/ spBlock1 --></div>
+ <div style="clear:both"></div>
+ <!-- end sanphammoi--></div>
+ <div style="clear:both"></div>
+              <!-- end primarymain--></div>
+          <!--end primaryhome--></div>
+<div id="divtintuc">
+   
+       <div class="accordian">
+	<ul>
+		<li class="lititile">Lazada Việt Nam - Kênh mua sắm trực tuyến hàng đầu Việt Nam!</li>
+		<li class="licontents">
+		  <div>
+		      Bước chân vào thị trường thương mại điện tử Việt Nam từ năm 2012 với mục tiêu trở thành trang bán hàng online hàng đầu, Lazada đã không ngừng phát triển và tự hoàn thiện dịch vụ của mình. Lazada.vn không những đem lại những trải nghiệm mua hàng trực tuyến trực tuyến an toàn, nhanh chóng mà còn giúp hàng triệu người tiêu dùng Việt Nam tận hưởng cảm giác mua sắm online đầy tiện ích và tiết kiệm.
+Lazada là trang TMĐT đầu tiên ở Việt Nam cung cấp dịch Thanh toán COD toàn quốc, chấp nhận đổi trả hàng trong vòng 14 ngày cũng như cung cấp tính năng Kiểm tra tình trạng đơn hàng trực tuyến.... Chính vì vậy, để có thể tận hưởng đầy đủ những tiện ích này, sao bạn không cùng tìm hiểu thêm những tính năng tiện lợi chỉ có ở Lazada nào chứ. Hãy để việc mua hàng trên Lazada là một trải nghiệm thú vị, tiện lợi và đầy niềm vui mỗi ngày!
+Với dịch vụ Thanh toán khi nhận hàng áp dụng toàn quốc và Chính sách đổi trả hàng trong 14 ngày, bạn sẽ hoàn toàn yên tâm và hài lòng khi mua hàng trên Lazada. Với những sản phẩm chưa thấy hài lòng, khách hàng có thể đổi trả sản phẩm trong vòng 14 ngày và Lazada sẽ chịu mọi chi phí vận chuyển nếu sản phẩm có lỗi quy cách hoặc đóng gói. Đặc biệt, với dịch vụ Nhận tiền khi thanh toán, quý khách hàng sẽ hoàn toàn chủ động và yên tâm khi mua sắm tại Lazada. Mua hàng trực tuyến trên Lazada còn giúp bạn tiết kiệm được vô số thời gian và tiền bạc, đặc biệt là với những chương trình khuyến mãi liên tiếp của chúng tôi.
+Không chỉ có giảm giá hấp dẫn cho nhiều sản phẩm, Lazada là nơi duy nhất bạn có thể được tham gia vào nhiều những chương trình giảm giá đến như vậy. Nếu bạn chưa biết bắt đầu tham gia cùng cộng đồng hàng triệu khách hàng của Lazada thế nào, hãy bắt đầu bằng việc đăng ký nhận newsletter của chúng tôi và bạn sẽ là được thông báo sớm nhất những chương trình khuyến mãi ưu đãi đặc biệt từ Lazada. Đặc biệt, bạn cũng không thể quên trở thành thành viên của Lazada trên Facebook để tham dự những chương trình đố vui với những giải thưởng vô cùng hấp dẫn.
+Với tiêu chí hoạt động vì sự tiện lợi và lợi ích của người dùng, Lazada vẫn không ngừng hoàn thiện những dịch vụ của mình. Và chúng tôi cũng sẵn sàng lắng nghe mọi phản hồi, ý kiến đóng góp cũng như mong muốn giúp đỡ của quý khách hàng tại các kênh truyền thông sau:
+1. Hotline: tại Hồ Chí Minh (08) 3942 1188 - Hà Nội: (04) 7300 1188
+2. Địa chỉ http://www.lazada.vn/contact
+		   </div>
+		</li>
+		<li class="lititile">Lazada Việt Nam - Kênh mua sắm trực tuyến hàng đầu Việt Nam!</li>
+		<li>Mauris bibendum justo sit amet lectus laoreet faucibus. Aliquam cursus, diam sed lacinia ultrices, urna ipsum auctor lacus, id vulputate ante ligula aliquam odio. Fusce feugiat risus at nisl. Sed cursus, tortor et iaculis viverra, augue quam interdum ligula, nec sollicitudin libero urna nec felis. Quisque rutrum, sapien ac euismod commodo, nibh metus ultrices erat, eu euismod mi magna non pede. Fusce magna velit, interdum ut, rutrum et, ultrices sed, risus. Praesent malesuada metus ut nibh. Suspendisse nec purus. Aenean est. Donec lectus. Pellentesque enim. Nulla tempus, ipsum sed placerat consectetur, nisl pede euismod sapien, in aliquam sapien erat a elit. Aliquam ac est. Etiam id dolor. In eget augue. Morbi varius sapien quis velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a diam. Etiam pretium consectetur enim. Cras aliquam ipsum in augue.</li>
+		<li class="lititile">Lazada Việt Nam - Kênh mua sắm trực tuyến hàng đầu Việt Nam!</li>
+		<li>Sed vitae magna. Aliquam faucibus, felis ullamcorper feugiat semper, tortor leo tincidunt nibh, a faucibus lorem magna a nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed sit amet mauris eget elit tincidunt hendrerit. Suspendisse vulputate, risus vitae sagittis blandit, arcu tortor venenatis nisl, vitae pharetra pede pede vulputate massa. Sed varius lectus a est. Nam vehicula. Pellentesque condimentum pellentesque pede. Praesent euismod felis quis augue. Morbi consequat eleifend tortor. Donec sed lorem. Cras facilisis, lacus a adipiscing interdum, augue elit feugiat odio, vel tempor justo sapien vitae tortor. Donec suscipit libero vel lectus. Vestibulum ipsum diam, laoreet nec, fringilla ac, vehicula nec, diam. Nulla tempus cursus dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+	</ul>
+</div>
+  
+<!-- Import The jQuery Script --> 
+<script type="text/javascript" src="../js/jMenu.js"></script> 
+
+ <!--end tintuc--></div>
+</div>
+ <!-- end page body-->
+			</div>
+ <div style="clear:both"></div>
+
+<!-- end layout--></div>
+<div id="footer" class="clearfix">
+  <center> <p>Công ty CP Phân phối Nam Anh<br/>
+Địa chỉ: A9 Lô 4, Khu đô thị mới Định Công, Hoàng Mai, Hà Nội <br/>
+
+Email: kdnamanh@gmail.com   <br/>
+
+ĐT: 0439911866 Hotline: 0902362008
+<br/>
+
+Webside: www.chinhhang-giatot.vn</p>  </center>
+</div>
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

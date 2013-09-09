@@ -1,0 +1,899 @@
+﻿/* # layout
+---------------------------------------------------------------------------- */
+
+div#layout {
+	width:998px;
+    display: table;
+    margin: 0 auto;
+    background:white;
+
+}
+/* begin #header ---------------------------------------------------------------------------- */
+div#header {
+	position:relative;
+	height:40px;
+}
+
+div#logo {
+
+	width:415px;
+	position:absolute;
+}
+/* # top
+---------------------------------------------------------------------------- */
+div#divheader_right {
+	padding-top:5px;
+}
+div#top {
+	margin-left:415px;
+	height:30px;
+	line-height:30px;
+	}
+
+
+div#top ul.topMenu {
+   float:left;
+  display:table-column;
+  padding-left:40px;
+  z-index: 400;
+}
+
+
+div#top ul.topMenu li {
+    display:inline;
+	/*background: url('../images/img_phancachheader.gif') no-repeat;*/
+    padding: 0px 0px 0px 0px;
+}
+
+div#top ul.topMenu li a {
+		color:#3d3d3d;
+		font-size:12px;
+		font-family:Tahoma;
+             
+}
+
+div#top ul.topMenu li a:hover {
+	text-decoration: underline;
+	color:#990033;
+}
+#google_translate_element {
+float:right;
+height:30px;
+margin-right:5px;
+line-height:normal;
+
+}
+/* # end header
+---------------------------------------------------------------------------- */
+
+/* # end header
+---------------------------------------------------------------------------- */
+#tabsninhthuan {
+	width:100%;
+   z-index:100;
+   clear:both;
+}
+.ie6 #tabs
+{
+		width:100%;
+        margin-top:23px;
+
+}
+
+#tabsninhthuan ul
+{
+ list-style:none;
+ float:left;
+ float:right;
+ 	}
+
+#tabsninhthuan li {
+	display:inline;
+	margin-right:2px;
+    float:left;
+}
+
+#tabsninhthuan li.giaohang {
+background:url('../images/index/img_iconoto.jpg') no-repeat;
+background-position:left center;
+
+}
+
+#tabsninhthuan li.trahang {
+background:url('../images/index/img_icon14.jpg') no-repeat;
+background-position:7px center;
+}
+
+#tabsninhthuan li.thanhtoan {
+background:url('../images/index/img_iconthanhtoan.jpg') no-repeat;
+background-position:10px center;
+}
+
+#tabsninhthuan li.camket{
+background:url('../images/index/img_iconchinhhang.jpg') no-repeat;
+background-position:5px center;
+}
+
+
+
+
+
+#tabsninhthuan a {
+	float:left;
+    margin:0;
+	padding-left:40px;
+    text-decoration:none;
+    font-size:12px;/*font-weight:bold;*/
+	border-bottom:none;
+}
+#tabsninhthuan a span {
+	display:block;
+	/*background:url('../images/common/tabright.gif') no-repeat center top; */
+	padding:7px 0px 7px 0px;
+	text-align:LEFT;
+    color:#036ca5;
+    font-weight:600;
+    font-size:11px;
+ 	}
+
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabsninhthuan a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabsninhthuan a:hover span {
+	color:white;
+	}
+
+
+#tabsninhthuan a:hover span {
+	/*background:url('../images/common/img_bgactive.gif') no-repeat;*/
+    background-position:center;
+   padding:7px 0px 7px 0px; 
+   color:#FF3300
+	}
+
+#tabsninhthuan a.active {
+float:left;
+ border:none;
+text-decoration:none;
+font-size:12px;;
+font-weight:600;
+color:#fcf900;
+
+	}
+#tabsninhthuan a.active span {
+background:url('../images/common/img_bgactive.gif') no-repeat;
+background-position:center;
+color:#fcf900;
+
+}
+
+/* # searchBar
+---------------------------------------------------------------------------- */
+
+div#searchBar {
+	clear: both;
+    height:62px;
+	background:url('../images/common/img_bgsearch.gif') no-repeat;
+	position:relative;
+	border-top:1px #0886b9 solid;
+	}
+	
+table#tablesearch {
+margin-top:15px;
+margin-left:10px;
+}
+/*----------- end searchbar -----------------*/
+#pageBody {
+margin-top:5px;
+}
+#primaryhome {
+	width:100%;
+	 }
+#primarymain {
+	font-size:12px;
+    background:white;
+}
+
+
+/*----------------------------menu left----------------- */
+#wrapper {
+font-family:Tahoma;
+border:1px #fdb218 solid;
+width:218px;
+ -webkit-box-shadow:0 3px 6px #d1d1d1;
+  -moz-box-shadow:0 3px 6px #d1d1d1;
+  box-shadow:0 3px 6px #d1d1d1;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px
+
+}
+h3#showAll
+{
+ background-color:#eee;
+text-align:center;
+font-weight:bold;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+height:20px;
+padding:4px;
+margin-bottom:5px;
+background:url('../images/index/img_headernghanh.jpg') no-repeat;
+color:white;
+font-size:14px;
+}
+h3#doanhgnghiep
+{
+ background-color:#eee;
+text-align:center;
+font-weight:bold;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+height:20px;
+padding:4px;
+margin-bottom:5px;
+background:url('../images/index/img_danhchodoanhnghiep.jpg') no-repeat;
+color:white;
+font-size:14px;
+}
+h3#doanhgnghiep:hover {
+text-align:center;
+font-weight:bold;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+height:20px;
+padding:4px;
+margin-bottom:5px;
+color:white;
+font-size:14px;
+ background:url('../images/index/img_danhchodoanhnghiep_hover.jpg') no-repeat;
+}
+h3#doanhgnghiep a:hover {
+    color: white;
+}
+
+
+
+#menu {
+
+  position:relative;
+  z-index:99999999;
+  background:#f9f2e2;
+  }
+#menu li {
+  list-style-type:none;
+
+ width:210px;
+  }
+#menu li a.aactive_hover {
+  display:block;
+  width:100%;
+  border-bottom:1px #CCCCCC solid;
+  font-size:1.0em;
+  text-align:left;
+  text-decoration:none;
+  background:#fffaf2; 
+  color:#444444; 
+  font-weight:bold;
+  padding:6px 4px 4px 4px;
+  overflow:hidden;
+  height:22px;
+ background:url('../images/index/img_iconsptieubieu.jpg') no-repeat;
+ background-position:200px center;
+ text-indent:5px;
+
+  }
+  #menu span.destroy-border
+  {
+  display:none;
+  position:relative;
+  left:194px; 
+  top:-25px;
+  text-align:left;
+  padding:1px; 
+  width:5px;
+  color:#000; 
+  border:none;
+  height:32px;
+   z-index:1001;
+  }
+#menu span.content {
+  display:none;
+  position:absolute; 
+  left:200px; 
+  top:-50px; 
+  text-align:justify;
+  color:#fff8f8; 
+  border:1px solid #808;
+   height:415px;;
+  overflow:hidden;
+  border:1px solid #ffb319;
+  background-color:#fff;
+   -webkit-box-shadow:0 3px 6px #d1d1d1;
+  -moz-box-shadow:0 3px 6px #d1d1d1;
+  box-shadow:0 3px 6px #d1d1d1;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px
+
+  }
+#menu a.aactive_hover:hover {
+ 
+   border:1px #fdb218 solid;
+   border-left:none;
+   background:#ffffff;
+}
+#menu a.aactive_hover:hover span.destroy-border
+  {
+  display:block;
+   background-color:#FFFFFF;
+  }
+  #menu a.aactive_hover:hover span.content {
+  display:block;
+  border:1px #fdb218 solid;
+  }
+#menu a.aactive_hover:hover span.content:first-line {
+  font-weight:bold; 
+  font-size:1.2em;
+  color:#808;
+  
+  }
+ #menu span.content
+  {
+  -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+  color:black;
+  }
+p.plevel3 {
+	color:#333333;
+	padding-top:5px;
+        padding-right:5px;
+}
+.ullevel3 li {
+background:url('../images/index/img_iconsptieubieu.jpg') no-repeat;
+background-position:left 5px;
+padding-left:15px;
+padding-top:2px;
+	}
+.ullevel3 li a {
+	color:#07488c;
+}
+.ullevel3 li a:hover {
+	color:#ffb319;
+
+}
+
+/*--------------end menu ------------------------ */
+/*------------------------quangcao---------------------------------------*/
+
+div#ad_left2 {
+    margin-top: 15px
+}
+div#quangcao2 {
+  
+}
+ul.ulquangcaongang {
+    width: 100%px;
+    clear: both;
+}
+ul.ulquangcaongang li#li1 {
+    display: inline;
+    padding-right:8px;
+}
+ul.ulquangcaongang li#li2 {
+    display: inline;
+    padding-right:10px;
+}
+ul.ulquangcaongang li#li3 {
+    display: inline;
+    float: right
+}
+/* --# sanphammoi
+---------------------------------------------*/
+div#sanphammoi {
+	margin-top:6px;
+	position:relative;
+        
+}
+a.axemtatcasp {
+	font-style:italic;
+	font-size:11px;
+	position:absolute;
+	right:10px;
+	top:5px;
+}
+a.axemtatcaspnew {
+	font-style:italic;
+	font-size:11px;
+	position:absolute;
+	right:10px;
+	top:5px;
+	width:20px;height:15px;
+
+}
+div#sanphammoi h2.sptieubieu {
+     height:25px;
+     line-height:25px;
+     border-bottom:3px #fdb218 solid;  
+     font-weight:bolder;
+     font-size:18px;
+    font-family:"Times New Roman", Times, serif;
+    background:url('../images/index/img_iconsptieubieu.jpg') no-repeat;
+    padding-left:12px;
+    background-position:left center;
+    text-transform:uppercase;
+    
+      }
+div#sanphammoi h2.sptieubieu:hover {
+	 background:#eef2f5;
+}
+div.spBlockspnew {
+	margin:0px 0px 15px 0px;
+	font-size:12px;
+}
+ul#ulsanphamtieubieu{
+}
+ul#ulsanphamtieubieu li {
+	display:inline;
+    float:left;
+    width:188px;
+    height:283px;
+    padding-left:10px;
+   }
+
+
+img.anhsanphammoi {
+	width:160px;
+	height:160px;
+	margin-top:10px;
+        z-index:0;
+ }
+p.ptensanpham {
+	height:30px;
+	background:transparent;
+}
+a.tesnsp{
+	font-weight:600;
+    color:#19598b;
+}
+.spangia {
+	color:#FF0000;
+	font-weight:600;
+	font-size:14PX;
+	font-family:"Times New Roman", Times, serif;
+}
+.spanseo {
+    background: url(../images/index/img_bgseo.jpg) no-repeat;
+    background-position:center center;
+    padding: 15px;
+    color: white;
+
+}
+span.spangiaxuatcang {
+    color:#5b5a5a;
+    text-decoration:line-through;
+    font-size:12px;
+    margin-right: 10px;
+}
+span.soluonghang {
+    color:#5b5a5a;
+    font-size:12px;
+}
+a.muangaysp
+{
+background: url('../images/index/img_muangay_hover.jpg') no-repeat;
+background-position: center center;
+width: 126px;
+height: 26px;
+display: none;
+}
+ul#ulsanphamtieubieu li:hover a.muangaysp {
+    background-position: center center;
+    width: 136px;
+    height: 26px;
+    display: block;
+    padding-left: 30px;
+}
+ul#ulsanphamtieubieu li:hover {
+	 background:url('../images/index/img_sanpham_hover.jpg') no-repeat;
+     z-index:200;
+	}
+ 
+/*---- tin tuc------------------------------------------------------------*/
+.accordian ul  {
+	list-style-type: none;
+	padding: 0 5px;
+}
+.accordian ul li.lititile 
+{
+font-size:15px;
+color:#db8121;
+font-weight:bold;
+border-bottom:1px #e8e7e6 solid;
+padding:5px 0px 5px 0px;
+background:url('../images/index/img_icontitile_news.jpg') no-repeat;
+background-position:right center;
+}
+.accordian ul li.licontents
+{
+padding:12px 0px 12px 0px;
+text-align:justify;
+}
+/*--------------- BEGINFOOTER -------------------*/
+#footer {
+    width:998PX;
+    margin-left: auto;
+    margin-right: auto;
+    height:121px;
+    background:#dee8e9;
+    padding-top:20px; 
+    border-top:3px #fdb218 solid;  
+    margin-top: 10px;
+  
+}
+
+/*----------------------------------end home index.php---------------------------------------------------/
+
+/*---------------------Chào Bán - Chào Mua - Sản phẩm----------------------------*/
+#primarymain {
+	font-size:12px;
+       margin-top:10px
+        width:100%;
+}
+
+
+#timkiemsanpham {
+	position:relative;
+	padding-bottom:3px;
+	padding-top:2px;
+	margin-left:5px;
+	margin-right:5px;
+	background:#D3F0FE;
+	border-bottom:1px #bababa solid;
+	border-top:1px #bababa solid;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+p.tieudebytuyenquang {
+	color:black;
+}
+#hSearch {
+	vertical-align:middle;
+	padding: 3px 7px 0px 0;
+}
+
+#hSearch p {
+	background: url('../images/common/bg_search.png') no-repeat 0 0;
+	border: none;
+	color: #335c06;
+	height: 23px;
+	padding: 3px 0 0 0;
+	width: 700px;
+	margin-left:200px;
+}
+
+#hSearch input.inputtimkiem {
+	background: none;
+	border: none;
+	color: #335c06;
+	padding: 0 7px 0 32px;
+	width: 285px;
+}
+#hSearch input.bnttimkiem
+{
+	padding: 0 7px 0 7px;
+	margin-left:0px;
+	margin-top:-5px;
+}
+a.asearchall:hover
+{
+	color:blue;
+}
+table#chitietcompany p.companytuyenquang {
+color:black;
+}
+table#chitiet tr td {
+	padding:5px 0px 0px 5px;
+}
+input.radioproduct {
+	margin-top:5px;
+	margin-left:5px;
+}
+.txt1 {
+	 padding:0px 0px 0px 5px;
+		margin-left:5px;
+}
+.atexttimkiem {
+	position:absolute;
+	left: 18px; top: 3px;
+	color:white;
+}
+.countindex {
+	height:22px;
+        float: right;
+}
+.ie7 div.countindex
+{
+     position: absolute;
+     float: right;
+     right: 10px;
+}
+.ie6 div.countindex
+{
+     position: absolute;
+     float: right;
+     right: 10px;
+}
+.countindex a:hover {
+	color:blue;
+}
+a.adau
+{
+	background:url('../images/common/img_dau.jpg') no-repeat;
+	display:block;
+	width:50px;
+	height:22px;
+	float:left;
+	text-align:center;
+    line-height:23px;
+    text-indent:15px;
+
+}
+
+a.atruoc
+{
+	background:url('../images/common/img_next.jpg') no-repeat;
+    display:block;
+    width:50px;
+	height:22px;
+	float:left;
+	text-align:center;
+    line-height:23px;
+    text-indent:14px;
+}
+
+a.asau
+{
+	background:url('../images/common/img_prev.jpg') no-repeat;
+    display:block;
+    width:50px;
+	height:22px;
+	float:left;
+	text-align:center;
+    line-height:23px;
+    text-indent:-6px;
+}
+a.acuoi
+{
+	background:url('../images/common/img_cuoi.jpg') no-repeat;
+    display:block;
+    width:50px;
+	height:22px;
+	float:left;
+	text-align:center;
+    line-height:23px;
+    text-indent:-18px;
+}
+
+a.number
+{
+background:#eef7f4;
+display:block;
+padding:0px 5px 0px 5px;
+margin-right:1px;
+height:20px;
+float:left;
+text-align:center;
+line-height:22px;
+border:#b8bbe6 1px solid;
+
+}
+a.numberactive {
+	background:#8aaec5;
+	color:white;
+
+}
+a.number:hover {
+	background:#8aaec5;
+	color:white;
+}
+/* begin lien he gioihang */
+
+ul.tetxlienhegiohang
+{
+  list-style:none;
+ /* margin-top:2px;*/
+  margin-bottom:5px;
+  border-bottom:1px black dotted;
+}
+
+ul.tetxlienhegiohang li
+{
+	display:inline;
+	margin-top:5px;
+
+}
+.lichonbochon1 {
+margin-left:80px;
+}
+
+ul.tetxlienhegiohang li.licheckbox1
+{
+margin-left:5px;
+}
+ul.tetxlienhegiohang li.licheckbox1 input {
+	margin-top:5px;
+}
+
+ul.tetxlienhegiohang li.lichonbochon
+{
+	margin-left:10px;
+
+}
+ul.tetxlienhegiohang li.lilienhemuahang
+{
+	margin-left:32px;
+	margin-top:5px;
+	
+
+}
+.lienhemuahang
+ {
+
+ margin-right:5px;
+vertical-align:middle;
+}
+
+ul.tetxlienhegiohang li.liduavaogiohang
+{
+	margin-left:40px;
+	margin-top:5px;
+}
+.duavaogio
+{
+margin-bottom:0px;
+ margin-right:5px;
+ margin-top:0px;
+}
+
+ul.tetxlienhegiohang li.lidautruoc
+{
+	margin-left:20px;
+	margin-top:5px;
+
+}
+/*-------------- begin product-----------------------*/
+#firstdary {
+width:220px;
+float:left;
+/*border:1px black solid;*/
+}
+#menuleft {
+width:220px;
+margin-top:14px;
+}
+
+#divanhmucnganhhanh {
+font-family:Tahoma;
+/*background:url('../images/commo/img_bgdmsp_ninhthuan.gif') white repeat-y;*/
+z-index:10;
+border:1px #d8dfea solid;
+width:224px;
+margin-left:6px;
+}
+#divanhmucnganhhanh h3 {
+	 background:#eef2f5;
+	 background-position:center center;
+     width:224px;height:25px;
+     line-height:25px;
+    text-align:center;
+    color:#00639a;
+    font-weight:normal;
+    border-bottom:1px #d8dfea solid;
+    font-weight:600;
+}
+
+#divanhmucnganhhanh ul
+{
+
+ position: relative;
+ margin-top:10px;
+ width:224px;
+}
+#divanhmucnganhhanh ul li
+{
+   /*  font-weight:bolder;
+	   background: url('../images/img_rowdmsp_ninhthuan.gif') no-repeat;*/
+    height:26px;
+    margin-left:12px;
+}
+
+#divanhmucnganhhanh ul li a
+{
+   color:#00639a;
+   margin-top:10px;
+   margin-bottom:5px;
+   font-size:12px;
+   padding-left:10px;
+   background:url('../images/common/img_bulettnganhhang.gif') no-repeat;
+   background-position:left 3px;
+   
+}
+
+
+#divanhmucnganhhanh ul li a:hover
+ {
+color:#990033;
+}
+.sumnghanhnghe {
+	color:#00639a;
+	margin-left:3px;
+	font-weight:normal;
+}
+#tooltip {
+}
+#rowendmsp {
+	background:url('../images/img_rowendmsp_ninhthuan.gif') no-repeat;
+	height:9px;
+}
+#primarymain_product {
+    font-size:12px;
+    background:white;
+    width:755px;
+    border:1px #d8deea solid;
+    float: right;
+}
+
+/*begin chitietsanpham */
+div#chitietsanphamrow {
+	clear:both;
+}
+div#metadata {
+	clear:both;
+	border-bottom:1px #3d3d3d dotted;
+	position:relative;
+	padding:10px 0px 10px 0px;
+	min-height:120px;
+}
+div#metadata p {
+	color:#575757;
+}
+div#metadata a:hover {
+	color:#990033;
+}
+p.ptomtatsp {
+	padding-right:5px;
+}
+img.img_anhsp_product {
+	width:100px;
+	height:100px;
+	display:block;
+	float:left;
+	padding-left:22px;
+	padding-right:15px;
+    margin-top:15px;
+}
+table#tablepostitem {
+	width:600px;
+	float:right;
+}
+table#tablepostitem tr td {
+	vertical-align:top;
+}
+table#tablepostitem tr td.postd1{
+	width:70%;
+}
+
+.checkbox {
+position:absolute;
+top:6px;
+left:5px;
+}
+.ie .checkbox {
+position:absolute;
+left: 5px; top: 5px;
+}
+.tensanpham{
+color:#006498;
+font-weight:bolder;
+height:25px;
+}

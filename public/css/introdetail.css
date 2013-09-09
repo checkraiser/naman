@@ -1,0 +1,172 @@
+/*--------------------begin introdetail---------------*/
+#introndetail {
+margin-top:10PX;
+font-family:Tahoma;
+font-size:12PX;
+}
+#introndetail h2
+{
+	background:url('../images/img_bgtextheader.gif') no-repeat;
+        height:30px;
+	line-height:25px;
+	color:white;
+	text-indent:35px;
+	font-weight:600;
+
+}
+h1#newtieude {
+
+	 color:#0275aa;
+	 font-weight:600;
+	 margin:10px 0px 10px 0px;
+}
+h1#newtieude a {
+color:#187801;
+font-weight:600;
+}
+span#newdate {
+	font-weight:normal;
+	color:black;
+}
+#newdetail {
+	margin-top:5PX;
+}
+#divnewimg {
+	width:210px;height:175px;float:left;
+	    margin-left:15px;
+	     margin-right:10px;
+
+}
+#newbgdetail {
+	background:url('../images/img_bgtincongdong.jpg') no-repeat;
+	width:209px;height:160px;
+    position:relative;
+
+
+}
+#newimgdetail {
+	position:absolute;
+	left: 6px; top: 9px;
+	width:197px;height:138px;
+
+}
+a.newtenimg {
+	color:black;
+	font-style:italic;
+
+}
+p#newtomtat {
+padding-left:15px;
+	padding-right:15px;
+	text-align:justify;
+}
+p#newcontent {
+	margin-top:20px;
+	padding-left:15px;
+	text-align:justify;
+	padding-right:15px;
+}
+.h2cactinkhac {
+	background:#ecece;
+	height:25px;
+	font-size:1.0em;color:#0c9730;font-weight:bold;
+    padding-top:5px;
+    text-indent: 15px;
+    font-family:Tahoma;
+   text-decoration:underline;
+
+}
+ul.newnguontin {
+	color:#e37000;
+	padding-left:15px;
+	margin-top:15px;
+	margin-bottom:15px;
+
+}
+ul.newnguontin li {
+	  font-style:italic;
+}
+ul.newdanhsach {
+	margin:10px 15px 15px 15px;}
+
+li.litinkhac {
+	padding:3px 3px 3px 15px;
+	background:url('') no-repeat;
+	 background-position:left 2px;
+	 text-align:justify;
+	 background:url('../images/common/img_iconcungtheloai.png') no-repeat;
+	 background-position:left 5px;
+}
+li.litinkhac a {
+	color:#00456c;
+	font-family:Tahoma;
+
+}
+li.litinkhac a:hover {
+	color:black;
+}
+
+#postitemnews {
+	margin:10px 0px 0px 0px;
+	 min-height:93px;
+	 border-bottom:1px #adb9b1 dashed;
+     clear:both;
+}
+.tieudenews {
+	color:#0275aa;
+	font-weight:600;
+	margin-left:15px;
+}
+.tieudenews:hover {
+	color:black;
+}
+
+.tieudenews a {
+color:#187801;
+font-weight:600;
+}
+p.bgnew1 {
+	 background:url('../images/img_bgsanphamchao.gif') no-repeat ;background-position:0px 0px;
+	 margin-top:5px;
+     width: 93px;
+     height:93px;
+     float:left;
+     margin-left:15px;
+         }
+p.bgnew1 img.picnew
+{
+	width:85px;height:72px;
+	margin-top:0px;
+   margin-left:2px;
+    margin-right:0px;
+}
+p.newtomtat {
+	margin-top:5px;
+	text-align:justify;
+	padding-right:15px;
+}
+
+span.spannewdate {
+	color:black;
+	font-weight:normal;
+	margin-left:3px;
+}
+.atrove {
+   float:right;
+    color:#6a6100;
+   display:block;
+   font-style:italic;
+   font-size:12px;
+   padding:0px 10px 10px 0px;
+
+}
+.atrove:hover {
+	color:blue;
+}
+.introchitiet {
+	float:right;
+    color:#6a6100;
+	margin:0px 15px 10px 0px;
+   font-style:italic;
+   font-size:12px;
+}
