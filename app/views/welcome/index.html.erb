@@ -1,14 +1,7 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Trade Bac lieu</title>
 
-<link rel="stylesheet" type="text/css" href="/css/naman.css" />
-</head>
 
-<body>
 <div id="page_">
 <div id="layout">
 <div id="header" class="clearfix">
@@ -138,8 +131,9 @@
       <span class="content">
         <table style="width:100%">
             <% if cat and cat.categories.count > 0 %>              
+              <tr>
               <% cat.categories.each do |cat2| %>
-                <tr>
+                
                   <td style="width:35%;vertical-align:top;padding-left:10px;">
                    <p class="plevel3"><b><%= cat2.name %></b></p>
                     <% if cat2 and cat2.categories.count > 0 %>
@@ -150,10 +144,14 @@
                        </ul>
                       <% end %>                     
                    </td>
-                </tr>
+
                 <% end %>                  
+                <td>
+                  <img style="float:right" src="/images/index/img_picnen.jpg"/>
+                </td>
+                </tr>
               <% end %>
-        <img style="float:right" src="/images/index/img_picnen.jpg"/>
+        
         </table>
        </span>      
   </a>
@@ -405,6 +403,3 @@ Email: kdnamanh@gmail.com   <br/>
 Webside: www.chinhhang-giatot.vn</p>  </center>
 </div>
 <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</body>
-
-</html>
